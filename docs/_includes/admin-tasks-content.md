@@ -250,6 +250,26 @@ were made during the period when the user was banned — these remain unsent.
 
 </div>
 
+<div class="admin-task" markdown="1" id="create-reports-private">
+
+### Creating/Viewing private reports
+
+<span class="admin-task__permissions">Permissions required: User must be marked
+as staff; one or more of ‘View/Mark private reports’ and ‘Markup problem
+details’ must be ticked.</span>
+
+If a resident makes a report that has to contain information that should
+not be make public, e.g. Names and addresses, then you can create a
+Private report. This will still be visible to staff members with the
+relevant permissions and will be sent as normal but will not be visible
+to members of the public.
+
+In such cases, staff should make a new report just as a member of the public would — see ‘[The
+citizen’s experience](/pro-manual/citizens-experience/)'. Those with the appropriate permissions
+will see a "Private" checkbox underneath the user details which they should select.
+
+</div>
+
 <div class="admin-task" markdown="1" id="correct-reporter-errors">
 
 ### Correcting reporter errors

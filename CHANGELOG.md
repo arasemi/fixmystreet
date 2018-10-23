@@ -11,6 +11,7 @@
         - List number of alerts on report page #669
         - viewing and managing of user alerts in admin #676
         - Allow moderation to potentially change photos. #2291
+        - Add Mark/View private reports permission #2306
     - Bugfixes:
         - Add perl 5.26/5.28 support.
         - Fix subcategory issues when visiting /report/new directly #2276
