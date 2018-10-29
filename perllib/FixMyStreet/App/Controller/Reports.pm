@@ -558,7 +558,9 @@ sub load_and_group_problems : Private {
 
     my $body = $c->stash->{body}; # Might be undef
 
-    if ($c->user_exists && ($c->user->is_superuser || ($body && $c->user->has_permission_to('report_inspect', $body->id)))) {
+    if ($c->user_exists && ($c->user->is_superuser || ($body && (
+        $c->user->has_permission_to('report_inspect', $body->id) ||
+        $c->user->has_permission_to('report_mark_private', $body->id))))) {
         # See all reports, no restriction
     } else {
         $where->{non_public} = 0;
